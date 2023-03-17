@@ -1,0 +1,44 @@
+.gracejacobs {
+	max-width: 200px;
+}
+
+.header {
+	text-align: center;
+	color: white;
+	background: black;
+}
+
+
+
+p {
+	font-family: 'Inria Serif', serif;
+	font-family: 'Shantell Sans', cursive;
+	font-family: 'sans-serif;'
+}
+
+body {
+	background-color: #fcdbf9;
+}
+
+img {
+	width: 400px,
+	height: auto;
+}
+.mark-img
+{
+	float: left;
+	margin: 3px;
+	/*padding-right: 10px;*/
+	max-height: 3.5rem;
+	margin-top: 0.5rem;
+
+
+
+
+}
+
+.project-thumb {
+	float: left;
+	padding: .2rem;
+
+}
