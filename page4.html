@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-  <meta charset="utf-8">
-    <title>How to Make a Cold Brew | Grace Jacobs</title>
+	  <title>How to Make a Cold Brew | Grace Jacobs</title>
+
 	 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +11,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
     
-<link rel="stylesheet" href="my-styles.css">   
+<link rel="stylesheet" href="my-styles.css"> 
+	    <meta charset="utf-8">
+	 
 
 <script type="text/javascript" src="js/gallery.js" defer></script>
   
@@ -39,9 +41,10 @@
 	</style>
  
  <body>
+	 <header>
 
- <a class="skip-link" href="#content">Skip to content</a>
-    <nav>
+		 <a href="#main" class="Skip">Skip to main content</a>
+  div class="nav">
 			
    			<ul>
 				<li><a href="index.html">Home</a></li>
@@ -49,60 +52,74 @@
 				<li><a href="page3.html">My Favorite Coffee Shops in Columbia!</a></li>
         <li><a class="active" href="page4.html">How to Make a Cold Brew</a></li>
 			</ul>
-		</nav>	
+		 </div>
+	 </header>
 
 
- <main id=content>
+ <main id="main">
    <h1>How to Make a Cold Brew</h1>
-	<p>At every coffee shop, my go to drink of choice is a simple iced cold brew coffee.</p> 
+	<p><center>At every coffee shop, my go to drink of choice is a simple iced cold brew coffee.</center></p>
 	
-  
-  <figure class="gallery-image hideThis">
-      <img src="img/coffeebeans.jpg"
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="img/coffeebeans.jpg"
       alt="coffee beans"
       <figcaption>
        1. Coffee beans must be ground in order to make your coffee.
       </figcaption>
-    </figure>
+	 </div>
 
-    <figure class="gallery-image hideThis">
-      <img src="img/watermix.jpg" alt="Water should be poured into the ground coffee beans to create the mixture"
+    <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="img/watermix.jpg" alt="Water should be poured into the ground coffee beans to create the mixture"
       <figcaption>
 	2. Water should be poured into the ground coffee beans to create the mixture.														 
         </figcaption>
-    </figure>
+	 </div>
 
 															
 															 
-     <figure class="gallery-image hideThis">
-      <img src="img/coffeeprep.jpg" alt="Coffee filter process"
+    <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="img/coffeeprep.jpg" alt="Coffee filter process"
       <figcaption>
 	3. The coffee must drip for 12-24 hours through a special filter.														 
         </figcaption>
-    </figure>		
+	</div>		
 
 															 
-     <figure class="gallery-image hideThis">
-      <img src="img/fridge.jpg" alt="Refridgerate the coffee"
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="img/fridge.jpg" alt="Refridgerate the coffee"
       <figcaption>
 	4. Put the coffee in the fridge overnight. 														 
         </figcaption>
-    </figure>	
+</div>	
 
-     <figure class="gallery-image hideThis">
-      <img src="img/ice.jpg" alt="Serve over ice"
+      <div class="mySlides fade">
+    <img src="img/ice.jpg" alt="Serve over ice"
       <figcaption>
 	5. Serve the coffee over ice. 														 
         </figcaption>
-    </figure>	
-    
-<div class="button_holder">
-      <button id="button_previous">Previous</button>
-      <p id="stepper"></p>
-      <button id="button_next">Next</button>
-    </div>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+
+</div>
+   
 
     </main>
-    <footer>Grace Jacobs, 2023</footer>
+    <footer> Grace Jacobs, 2023</footer>
   </body>
 </html>
