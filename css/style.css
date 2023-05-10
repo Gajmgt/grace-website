@@ -20,6 +20,21 @@ p {
 
 body {
 	background-color: #fcdbf9;
+	 background-color: #fcdbf9;
+    max-width: 500px ;
+    margin: auto;
+  }
+     p { 
+  font-family: "Shantell Sans", cursive;
+ }
+ 
+     h1 {
+  font-family: "Inria Serif";
+ }
+ 
+     ul {
+  font-family: sans-serif
+ }  
 }
 
 img {
@@ -42,23 +57,7 @@ img {
 	float: left;
 	padding: .2rem;
 
-}
-body {
-    background-color: #fcdbf9;
-    max-width: 500px ;
-    margin: auto;
-  }
-     p { 
-  font-family: "Shantell Sans", cursive;
- }
- 
-     h1 {
-  font-family: "Inria Serif";
- }
- 
-     ul {
-  font-family: sans-serif
- }  
+
       
 		
 figure {
