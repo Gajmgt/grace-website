@@ -43,3 +43,33 @@ img {
 	padding: .2rem;
 
 }
+body {
+    background-color: #fcdbf9;
+    max-width: 500px ;
+    margin: auto;
+  }
+     p { 
+  font-family: "Shantell Sans", cursive;
+ }
+ 
+     h1 {
+  font-family: "Inria Serif";
+ }
+ 
+     ul {
+  font-family: sans-serif
+ }  
+      
+		
+figure {
+    display: inline-block;
+    border: 1px dotted gray;
+    margin: 30px; /* adjust as needed */
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+}
