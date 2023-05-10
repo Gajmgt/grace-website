@@ -8,6 +8,8 @@
 	background: black;
 }
 
+ <link rel="stylesheet" href="css/style.css">
+	 <script type="text/javascript" src="js/gallery.js" defer></script>
 
 
 p {
@@ -31,7 +33,6 @@ img {
 	/*padding-right: 10px;*/
 	max-height: 3.5rem;
 	margin-top: 0.5rem;
-
 
 
 
